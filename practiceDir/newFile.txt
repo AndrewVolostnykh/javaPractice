@@ -1,0 +1,1 @@
+Andrew Volostnykh are trying to code with IO streams!!))) So, lets check, are this working or no? \n <- I have plased here line break!
