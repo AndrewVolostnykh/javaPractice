@@ -6,6 +6,8 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
+/* Important, in this class use next IO-classes: File, InputStream, OutputStream, Reader and Writer */
+
 public class FileIO {
 
         public static void exOfSystem() throws Exception
@@ -134,12 +136,12 @@ public class FileIO {
             return resultMap;
         }
 
-        public static void practDBwFiller() throws Exception
+        public static void practDBwFiller(String path, int linesWrite) throws Exception
         {
             int counter = 0;
-            BufferedWriter filler = new BufferedWriter(new FileWriter("practiceDir/practDB.txt", true)); // append mode enabled in fileWriter constructor
+            BufferedWriter filler = new BufferedWriter(new FileWriter(path, true)); // append mode enabled in fileWriter constructor
 
-            while(counter != 100)
+            while(counter != linesWrite)
             {
                 String input = StringToInt.randomString(8) + ":" + StringToInt.randomString(8);
                 filler.write(input);

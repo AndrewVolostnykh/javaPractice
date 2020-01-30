@@ -1,0 +1,15 @@
+First "concurrent" task is: (DONE!)
+> taking information from 4 files and write it in one Map
+> One more Thread testing - how much random string can be equal with saved random strings in result map from some files.
+
+>> In files information have noted as "name:password" for ex.
+>> Map have keys <String, String>
+>> At first we writing 4 files by new Strings and after start a program
+>> Last thread taking information from Map and compare with random string (that generated to be compared)
+
+Second "concurrent" task is:
+Productive and customer
+(Rus)Производитель генерирует некоторые данные (в примере — числа). Производитель «потребляет» их.
+Два потока разделяют общий буфер данных, размер которого ограничен.
+Если буфер пуст, потребитель должен ждать, пока там появятся данные.
+Если буфер заполнен полностью, производитель должен ждать, пока потребитель заберёт данные и место освободится.

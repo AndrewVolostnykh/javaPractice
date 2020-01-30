@@ -269,24 +269,26 @@ public class CollectionsPractice {
         Stream<User> firstUsers = Stream.of(new User("Andrew", 20), new User("Solya", 23), new User("Zhenya", 19),
                                             new User("Oksana", 25), new User("Vera", 30), new User("Zhenya", 19));
         List<User> userList = firstUsers.collect(Collectors.toList());
-        // must to show all users with ID < 20 and this must to be equal result of 268 line
+// must to show all users with ID < 20 and this must to be equal result of 268 line
         System.out.println("Filter, must be equal with next filter");
         userList.stream().filter(u -> u.id < 20).forEach(u -> System.out.println(u.toString()));
-        // must to show all user id's
+// must to show all user id's
         System.out.println("All users");
         userList.stream().map(u -> u.id).forEach(u -> System.out.println(u.toString()));
-        // must to show all users that have id < 20 and they's hash code!
+// must to show all users that have id < 20 and they's hash code!
         System.out.println("Next Filter, must show name and hash of users with ID < 20");
         userList.stream().filter(u -> u.id<20).flatMap(u -> Stream.of(
                 String.format("Name: %s, id: %d", u.name, u.id),
                 String.format("Name: %s, hash: %s", u.name, u.hashCode())
         )).forEach(u -> System.out.println(u.toString()));
 
+//sorting and distinct operations
         System.out.println("Sorting");
         userList.stream().sorted(new UserComparator()).forEach(u-> System.out.println(u.toString())); // work
         System.out.println("Distinct");
         userList.stream().distinct().forEach(u-> System.out.println(u.toString()));
 
+//counting and matching operations
         System.out.print("Counting of Distinct elements: ");
         System.out.println(userList.stream().distinct().count());
         System.out.print("Match that all ID > 10 : ");
@@ -295,15 +297,16 @@ public class CollectionsPractice {
         System.out.println(userList.stream().anyMatch(u -> u.id > 29));
         System.out.print("Match that no one ID > 0 : ");
         System.out.println(userList.stream().noneMatch(u -> u.id > 0));
-
+//min and max elements, reduce next
         System.out.println("Min element: " + userList.stream().min(new UserComparator()).get().toString());
         System.out.println("Max element: " + userList.stream().max(new UserComparator()).get().toString());
 
         System.out.println("Here can be your advertising");
 
-        System.out.println(">> three usage of reduse here");
+        System.out.println(">> three usage of reduce here");
         System.out.println(">> about Optional<T>");
-        System.out.println(">> about ");
+        System.out.println(">> about collect, grouping");
+        System.out.println(">> OTHER (Parallel streams, p. operations with arrays)");
 
     }
 
