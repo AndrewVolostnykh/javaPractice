@@ -13,7 +13,9 @@ etc.
 
 
 MAP FOR THIS DIRECTORY
-src - basics (Classes and code that writed to see how it works. It is unserious)
-    - concurrencyPractice (Here saved classes with some tasks from internet on multithreading theme)
-    - ionioStreams (Practice and some solutions with IO/NIO)
-    - tasks (Directory, where saved classes with serious practical tasks from internet, that have using several technologies of language or algorythmic solutions)
+src > basics (Classes and code that writed to see how it works. It is unserious)
+    > concurrencyPractice (Here saved classes with some tasks from internet on multithreading theme)
+    > ionioStreams (Practice and some solutions with IO/NIO)
+    > tasks (Directory, where saved classes with serious practical tasks from internet, that have using several technologies of language or algorythmic solutions)
+practiceDir > directory where saved some files that used in IO/NIO or Concurrency classes practice
+filesWithLigPas > files with generated brut force login:password and used in Concurrency tasks
