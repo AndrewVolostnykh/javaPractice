@@ -18,8 +18,6 @@ public class FirstConcurrencyTask{
         threadTwo.start();
         threadFour.start();
         threadThree.start();
-
-        getResultMap();
     }
 
     public synchronized static void placeInMap(String name, String password)
@@ -45,6 +43,7 @@ public class FirstConcurrencyTask{
 class ThreadOne extends Thread
 {
     private String path;
+    private boolean append;
 
     public ThreadOne(String path)
     {
@@ -62,6 +61,7 @@ class ThreadOne extends Thread
             FirstConcurrencyTask.placeInMap(list.get(i)[0], list.get(i)[1]);
         }
         System.out.println("Thread " + Thread.currentThread().getName() + " have finished!");
+        FirstConcurrencyTask.getResultMap();
     }
 
     private List<String[]> takeFromFile(String path)
@@ -77,7 +77,7 @@ class ThreadOne extends Thread
                 String[] temp = takedString.split(":");
                 resultList.add(temp);
                 takedString = bufferedReader.readLine();
-                logging(); // logging that thread working. I like to watch what doings when application executing
+                loggingChecked(); // logging that thread working. I like to watch what doings when application executing
             }
 
             return resultList;
@@ -98,13 +98,26 @@ class ThreadOne extends Thread
         }
     }
 
-    private void logging() throws Exception
+    private void logging(boolean append) throws Exception
     {
-        FileWriter writer = new FileWriter("src/concurrencyPractice/threadLogging.txt", true);
-        BufferedWriter bufferedWriter = new BufferedWriter(writer);
-        bufferedWriter.write(Thread.currentThread().getName() + " working with " + path);
-        bufferedWriter.newLine();
-        bufferedWriter.close();
+            FileWriter writer = new FileWriter("src/concurrencyPractice/threadLogging.txt", append);
+            BufferedWriter bufferedWriter = new BufferedWriter(writer);
+            bufferedWriter.write(Thread.currentThread().getName() + " working with " + path);
+            bufferedWriter.newLine();
+            bufferedWriter.close();
+    }
+
+
+    private void loggingChecked() throws Exception
+    {
+        if(append)
+        {
+            logging(true);
+        } else
+        {
+            logging(false);
+            append = true;
+        }
     }
 
 }
