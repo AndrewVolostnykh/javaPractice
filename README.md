@@ -10,3 +10,10 @@ Here must be:
 >>Serialisation, annotation, refletion
 >>(may be) Parsing of XML, JSON
 etc.
+
+
+MAP FOR THIS DIRECTORY
+src - basics (Classes and code that writed to see how it works. It is unserious)
+    - concurrencyPractice (Here saved classes with some tasks from internet on multithreading theme)
+    - ionioStreams (Practice and some solutions with IO/NIO)
+    - tasks (Directory, where saved classes with serious practical tasks from internet, that have using several technologies of language or algorythmic solutions)
