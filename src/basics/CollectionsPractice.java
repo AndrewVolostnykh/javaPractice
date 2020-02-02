@@ -186,7 +186,6 @@ public class CollectionsPractice {
             System.out.println("Key: " + printer.getKey() + ", User:{ " + printer.getValue().toString() + "}");
         }
 
-
         System.out.println("Size: " + map.size());
         System.out.println("=============================");
         System.out.println("========Tree map next========");
@@ -289,14 +288,10 @@ public class CollectionsPractice {
         userList.stream().distinct().forEach(u-> System.out.println(u.toString()));
 
 //counting and matching operations
-        System.out.print("Counting of Distinct elements: ");
-        System.out.println(userList.stream().distinct().count());
-        System.out.print("Match that all ID > 10 : ");
-        System.out.println(userList.stream().allMatch(u -> u.id > 10));
-        System.out.print("Match that any ID > 29 : ");
-        System.out.println(userList.stream().anyMatch(u -> u.id > 29));
-        System.out.print("Match that no one ID > 0 : ");
-        System.out.println(userList.stream().noneMatch(u -> u.id > 0));
+        System.out.print("Counting of Distinct elements: " + userList.stream().distinct().count());
+        System.out.print("Match that all ID > 10 : " + userList.stream().allMatch(u -> u.id > 10));
+        System.out.print("Match that any ID > 29 : " + userList.stream().anyMatch(u -> u.id > 29));
+        System.out.print("Match that no one ID > 0 : " + userList.stream().noneMatch(u -> u.id > 0));
 //min and max elements, reduce next
         System.out.println("Min element: " + userList.stream().min(new UserComparator()).get().toString());
         System.out.println("Max element: " + userList.stream().max(new UserComparator()).get().toString());
