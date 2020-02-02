@@ -22,6 +22,9 @@ src
 > concurrencyPractice : (Here saved classes with some tasks from internet on multithreading theme)
 
 > ionioStreams : (Practice and some solutions with IO/NIO)
+>> scannerPractice : (Practice most popular methods in Scanner)
+
+>net : (My acquaintance with java.net)
 
 > tasks : (Directory, where saved classes with serious practical tasks from internet, that have using several technologies of language or  algorythmic solutions)
 
