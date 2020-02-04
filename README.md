@@ -12,7 +12,7 @@ Here must be:
 etc.
 
 -------------------------------------------------------------------------------
-MAP FOR THIS DIRECTORY
+MAP FOR THIS REPOSITORY
 -------------------------------------------------------------------------------
 
 src
@@ -32,7 +32,7 @@ practiceDir
 --------------------------------------------------------------------------------
 > directory where saved some files that used in IO/NIO or Concurrency classes practice
 
-filesWithLigPas
+filesWithLogPas
 --------------------------------------------------------------------------------
 >  files with generated brut force login:password and used in Concurrency tasks
 
