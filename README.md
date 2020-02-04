@@ -35,4 +35,8 @@ practiceDir
 filesWithLigPas
 --------------------------------------------------------------------------------
 >  files with generated brut force login:password and used in Concurrency tasks
+
+webattempt
+--------------------------------------------------------------------------------
+> Module with servlet practice. It is another project, that added to this directory, because it cant be separate to new repository
 --------------------------------------------------------------------------------
