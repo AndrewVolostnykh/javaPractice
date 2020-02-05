@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 // handing queries by /add
 public class AddServlet extends HttpServlet {
@@ -22,11 +23,37 @@ public class AddServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
         String password = req.getParameter("pass");
-        User user = new User(name, password);
-        Model model = Model.getInstance();
-        model.add(user);
+        String email = req.getParameter("email");
+        String gender = req.getParameter("gender");
+        String country = req.getParameter("country");
+        String date = req.getParameter("date"); // check, does it works
 
-        req.setAttribute("userName", name);
-        doGet(req, resp);
+        /*
+        User user = null;
+        if(name != null & password != null & gender != null & country != null & date != null ) {
+        user = new User(name, password, surname, country, date, gender);
+        }
+         */
+
+        User user = new User(name, password, email, country, date, gender);
+
+        Model model = Model.getInstance();
+
+        PrintWriter writer = resp.getWriter();
+
+        if(model.duplicationCheck(user)||user == null) // block duplications
+        {
+            try{
+                writer.println("This user already registered or input data incorrect");
+            } finally {
+                writer.close();
+        }
+            doGet(req, resp);
+        } else {
+            model.add(user);
+
+            req.setAttribute("userName", name);
+            doGet(req, resp);
+        }
     }
 }

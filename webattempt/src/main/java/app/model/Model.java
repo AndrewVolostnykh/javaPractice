@@ -28,9 +28,26 @@ public class Model {
 
     public List<String> list()
     {
-        return model.stream().map(User::getName).collect(Collectors.toList());
+        return model.stream().map(User::toString).collect(Collectors.toList());
     }
 
+    public boolean duplicationCheck(User user)
+    {
+        return model.stream().anyMatch(u -> u.getEmail().equals(user.getEmail()));
 
+    }
+
+    public User findUser(String email, String password)
+    {
+        for(int i = 0; i < model.size(); i++)
+        {
+            if(model.get(i).getEmail().equals(email) & model.get(i).getPassword().equals(password))
+            {
+                return model.get(i);
+            }
+        }
+
+        return null;
+    }
 
 }

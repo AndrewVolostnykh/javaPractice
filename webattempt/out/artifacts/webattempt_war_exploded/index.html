@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My app:)</title>
-</head>
-<body>
-<!-- header -->
-<div>
-    <h1>My app:)</h1>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <title>My app:)</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body class="w3-light-grey">
+        <!-- header -->
+        <div class="w3-container w3-indigo w3-right-align">
+            <h1>My app:)</h1>
+        </div>
 
-<div>       <!-- content -->
-    <div>    <!-- buttons holder -->
-        <button onclick="location.href='/webattempt_war_exploded/list'">List users</button>
-        <button onclick="location.href='/webattempt_war_exploded/add'">Add user</button>
-    </div>
-</div>
-</body>
+        <br>
+        <div class="w3-container w3-center">
+            <h3>
+                At this moment u can only create new account and check who already registered.
+            </h3>
+        </div>
+        <br>
+
+        <div class="w3-container w3-center">       <!-- content -->
+            <div>    <!-- buttons holder -->
+                <button class="w3-btn w3-grey w3-round-large" onclick="location.href='/webattempt_war_exploded/list'">List users</button>
+                <button class="w3-btn w3-blue w3-round-large" onclick="location.href='/webattempt_war_exploded/add'">Registration</button>
+                <button class="w3-btn w3-blue w3-round-large" onclick="location.href='/webattempt_war_exploded/login'">Login</button>
+            </div>
+        </div>
+    </body>
 </html>
