@@ -2,6 +2,7 @@
 <html>
     <head>
         <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <title>User profile</title>
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         </head>
@@ -15,7 +16,7 @@
                 <h2>Login</h2>
             </div>
         <form method="post" class="w3-selection w3-light-grey w3-padding">
-            <label>Name:
+            <label>E-mail:
                 <input type="text" name="name" class="w3-input w3-animate-input w3-border w3-round-large" style="width: 30%">
             </label>
             <br>

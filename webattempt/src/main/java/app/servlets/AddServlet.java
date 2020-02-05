@@ -26,7 +26,7 @@ public class AddServlet extends HttpServlet {
         String email = req.getParameter("email");
         String gender = req.getParameter("gender");
         String country = req.getParameter("country");
-        String date = req.getParameter("date"); // check, does it works
+        String date = req.getParameter("birthday"); // check, does it works
 
         /*
         User user = null;
@@ -36,20 +36,20 @@ public class AddServlet extends HttpServlet {
          */
 
         User user = new User(name, password, email, country, date, gender);
-
         Model model = Model.getInstance();
 
-        PrintWriter writer = resp.getWriter();
+        PrintWriter writer = resp.getWriter(); // RE-WRITE
 
-        if(model.duplicationCheck(user)||user == null) // block duplications
+        if(model.duplicationCheck(user)) // block duplications
         {
-            try{
+            try{ //RE-WRITE
                 writer.println("This user already registered or input data incorrect");
             } finally {
                 writer.close();
         }
             doGet(req, resp);
         } else {
+            System.out.println(user.getName());
             model.add(user);
 
             req.setAttribute("userName", name);

@@ -4,6 +4,7 @@ import app.entities.User;
 import app.model.Model;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -28,12 +29,21 @@ public class LoginServlet extends HttpServlet {
         User user = model.findUser(name, password);
         if(user != null)
         {
-            RequestDispatcher rd = req.getRequestDispatcher("viewjsp/profile.jsp");
-            rd.forward(req, resp);
+            /*
+            req.setAttribute("user", user);
+            req.getRequestDispatcher("viewjsp/profile.jsp").forward(req, resp);
+            */
+            req.setAttribute("name", user.getName());
+            req.setAttribute("email", user.getEmail());
+            req.setAttribute("id", user.getId());
+            req.setAttribute("country", user.getCountry());
+            req.setAttribute("birthday", user.getBirthDate());
+            req.setAttribute("gender", user.getGender());
+            RequestDispatcher disp = req.getRequestDispatcher("viewjsp/profile.jsp");
+            disp.forward(req, resp);
+
         } else {
             doGet(req, resp);
         }
     }
-
-
 }

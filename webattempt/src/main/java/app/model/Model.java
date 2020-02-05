@@ -39,14 +39,16 @@ public class Model {
 
     public User findUser(String email, String password)
     {
-        for(int i = 0; i < model.size(); i++)
-        {
-            if(model.get(i).getEmail().equals(email) & model.get(i).getPassword().equals(password))
-            {
-                return model.get(i);
-            }
-        }
+//        for(int i = 0; i < model.size(); i++)
+//        {
+//            if(model.get(i).getEmail().equals(email) & model.get(i).getPassword().equals(password))
+//            {
+//                return model.get(i);
+//            }
+//        }
 
+        for (User u : model)
+            if (u.getEmail().equals(email) & u.getPassword().equals(password)) return u;
         return null;
     }
 

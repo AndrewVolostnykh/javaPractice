@@ -90,8 +90,7 @@ public class User {
 
         int result = (name != null ? name.hashCode() : 0) + (email != null ? email.hashCode() : 0) +
                  (birthDate != null ? birthDate.hashCode() : 0);
-        result *= result * 31 + gender.hashCode() + (country != null ? country.hashCode() : 0);
-        return result;
+        return result * result;
 
     }
 

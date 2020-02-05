@@ -1,5 +1,7 @@
 package app.servlets;
 
+import app.entities.User;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,6 +20,9 @@ public class UserProfile extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.doGet(req, resp);
+        User user = (User)req.getSession().getAttribute("user");
+        System.out.println(user.getName());
+        req.setAttribute("name", user.getName());
+
     }
 }
