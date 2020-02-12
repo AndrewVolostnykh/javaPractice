@@ -1,4 +1,4 @@
-import concurrencyPractice.FirstConcurrencyTask;
+import concurrencyPractice.ThirdCocurrentTask;
 
 public class Main{
     public static void  main(String[] args)
@@ -13,7 +13,7 @@ public class Main{
 
 //            FileSystem fileSystem = new FileSystem();
 //            fileSystem.menu();
-//            CollectionsPractice.letsStream2();
+//            CollectionsPractice.letsStream3();
 
             //filling files
 //            FileIO.practDBwFiller("filesWithLogPas/fileOne.txt", 100);
@@ -22,8 +22,15 @@ public class Main{
 //            FileIO.practDBwFiller("filesWithLogPas/fileFour.txt", 50);
 
 
-            FirstConcurrencyTask.main();
+//            FirstConcurrencyTask.main();
+//            NetOperations.mainNetOperations();
 
+//            ScannerPractice.scannerAndFile();
+//            ScannerPractice.scannerAndInputStream();
+
+//                ScannerPractice.scannerAndRegex();
+
+//            ThirdCocurrentTask.execute();
 
         } catch(Exception e)
         {

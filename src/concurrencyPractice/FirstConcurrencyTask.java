@@ -98,13 +98,17 @@ class ThreadOne extends Thread
         }
     }
 
-    private void logging(boolean append) throws Exception
+    private void logging(boolean append)
     {
-            FileWriter writer = new FileWriter("src/concurrencyPractice/threadLogging.txt", append);
-            BufferedWriter bufferedWriter = new BufferedWriter(writer);
+        try(FileWriter writer = new FileWriter("src/concurrencyPractice/FirstTaskLogging.txt", append);
+            BufferedWriter bufferedWriter = new BufferedWriter(writer);) {
+
             bufferedWriter.write(Thread.currentThread().getName() + " working with " + path);
             bufferedWriter.newLine();
-            bufferedWriter.close();
+        } catch (IOException ioe)
+        {
+            ioe.printStackTrace();
+        }
     }
 
 

@@ -10,8 +10,6 @@ public class CollectionsPractice {
         int id;
         String name;
 
-        private User(){}
-
         User(String name, int id) {
             this.id = id;
             this.name = name;
@@ -262,8 +260,18 @@ public class CollectionsPractice {
 
     }
 
-    public static void letsStream2()
-    {
+    public static void letsStream2() {
+
+            LinkedList<String> strings = new LinkedList<>(); {
+                int counter = 0;
+            while(counter< 500)
+
+                {
+                    strings.add(StringToInt.randomString(8));
+                    counter++;
+                }
+            }
+
         System.out.println("/* Filtering, brute force, showing */");
         Stream<User> firstUsers = Stream.of(new User("Andrew", 20), new User("Solya", 23), new User("Zhenya", 19),
                                             new User("Oksana", 25), new User("Vera", 30), new User("Zhenya", 19));
@@ -298,11 +306,12 @@ public class CollectionsPractice {
 
         System.out.println("Here can be your advertising");
 
-        System.out.println(">> three usage of reduce here");
-        System.out.println(">> about Optional<T>");
-        System.out.println(">> about collect, grouping");
-        System.out.println(">> OTHER (Parallel streams, p. operations with arrays)");
+        System.out.println(">> Concat all names? ");
+        System.out.println(userList.stream().reduce((a, b) -> new User(a.name + b.name, b.id)).map(u -> u.toString()));
+        System.out.println(">> Try reduce with Strings: " + strings.stream().reduce((a, b) -> a + b));
 
+        Map<Integer, String> toMap = userList.stream().distinct().collect(Collectors.toMap(p-> p.id, t-> t.name));
+        toMap.forEach((k, v) -> System.out.println(k.toString() + " " + v));
     }
 
 }

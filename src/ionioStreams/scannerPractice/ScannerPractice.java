@@ -1,6 +1,5 @@
 package ionioStreams.scannerPractice;
 
-import javax.annotation.processing.Filer;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.InputStream;
