@@ -1,13 +1,14 @@
 import concurrencyPractice.ThirdCocurrentTask;
+import static basics.CollectionsPractice.*;
 
 public class Main{
     public static void  main(String[] args)
     {
         try {
-            //CollectionsPractice.hashSetPractice();
-            //CollectionsPractice.treeSetPractice();
-            //CollectionsPractice.researchOfLists();
-            //CollectionsPractice.mapPractice();
+//            hashSetPracticeSE(); // from static import CollectionsPractice
+//            treeSetPracticeSE();
+//            researchOfLists();
+//            mapPractice();
             //ReflectionPractice.reflPract();
             //CollectionsPractice.letsStream();
 
