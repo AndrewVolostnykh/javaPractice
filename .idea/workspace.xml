@@ -39,90 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/calculator/CalculatorTesting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/calculator/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/TestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/database/DbInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/database/DataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testing/database/BusinessLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testing/database/BusinessLogicTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="278">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +53,84 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/CustomerRegistrationValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="512">
               <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collections/own/hashMap/OwnHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-32">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#2581#2582#0" expanded="true" />
+                <element signature="e#2653#2654#0" expanded="true" />
+                <element signature="e#2836#2837#0" expanded="true" />
+                <element signature="e#2870#2871#0" expanded="true" />
+                <element signature="e#2909#2910#0" expanded="true" />
+                <element signature="e#2947#2948#0" expanded="true" />
+                <element signature="e#2981#2982#0" expanded="true" />
+                <element signature="e#3017#3018#0" expanded="true" />
+                <element signature="e#3061#3062#0" expanded="true" />
+                <element signature="e#3103#3104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ionioStreams/scannerPractice/ScannerPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="623" column="13" lean-forward="true" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="567" column="30" selection-start-line="567" selection-start-column="30" selection-end-line="567" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basics/CollectionsPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2208">
+              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testing/collections/own/OwnHashMapTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,12 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ionioStreams/scannerPractice/ScannerPractice.java" />
-        <option value="$PROJECT_DIR$/src/net/otherParts/Server.java" />
-        <option value="$PROJECT_DIR$/src/net/NetOperations.java" />
-        <option value="$PROJECT_DIR$/src/basics/CollectionsPractice.java" />
-        <option value="$PROJECT_DIR$/src/concurrencyPractice/Description of task" />
-        <option value="$PROJECT_DIR$/src/simple/servlet.java" />
         <option value="$PROJECT_DIR$/src/simple/servlet/HelloServlet.java" />
         <option value="$PROJECT_DIR$/servletEE/web/index.html" />
         <option value="$PROJECT_DIR$/servletEE/src/HelloServlet.java" />
@@ -207,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/testing/classes/Calculator.java" />
         <option value="$PROJECT_DIR$/src/testing/MainTester.java" />
         <option value="$PROJECT_DIR$/src/testing/calculator/CalculatorTesting.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/testing/TestSuite.java" />
         <option value="$PROJECT_DIR$/src/testing/database/DataBase.java" />
         <option value="$PROJECT_DIR$/src/testing/database/DbInt.java" />
@@ -215,6 +204,13 @@
         <option value="$PROJECT_DIR$/src/testing/database/BuisnesLogicTest.java" />
         <option value="$PROJECT_DIR$/src/testing/database/BusinessLogic.java" />
         <option value="$PROJECT_DIR$/src/testing/database/BusinessLogicTest.java" />
+        <option value="$PROJECT_DIR$/src/fucntionalPractice/FunctionIF.java" />
+        <option value="$PROJECT_DIR$/src/serialisation/Weather.java" />
+        <option value="$PROJECT_DIR$/src/serialisation/SerialisationController.java" />
+        <option value="$PROJECT_DIR$/src/collections/own/hashMap/OwnMap.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/collections/own/hashMap/OwnHashMap.java" />
+        <option value="$PROJECT_DIR$/src/testing/collections/own/OwnHashMapTesting.java" />
       </list>
     </option>
   </component>
@@ -226,10 +222,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="738" />
-    <option name="height" value="395" />
+    <option name="x" value="2037" />
+    <option name="y" value="14" />
+    <option name="width" value="1550" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -257,7 +253,22 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="_EasyPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_EasyPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="own" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_EasyPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="own" type="462c0819:PsiDirectoryNode" />
+              <item name="hashMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -270,21 +281,22 @@
               <item name="_EasyPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="_EasyPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="own" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,79 +340,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusinessLogicTest.testEditItem">
-    <configuration name="CalculatorTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testing.calculator.CalculatorTesting" />
+  <component name="RunManager" selected="JUnit.OwnHashMapTesting.sameKey">
+    <configuration name="OwnHashMapTesting.generalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_EasyPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testing.calculator.*" />
+          <option name="PATTERN" value="testing.collections.own.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusinessLogicTest.testEditItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_EasyPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testing.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testing.database" />
-      <option name="MAIN_CLASS_NAME" value="testing.database.BusinessLogicTest" />
-      <option name="METHOD_NAME" value="testEditItem" />
+      <option name="PACKAGE_NAME" value="testing.collections.own" />
+      <option name="MAIN_CLASS_NAME" value="testing.collections.own.OwnHashMapTesting" />
+      <option name="METHOD_NAME" value="generalTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTesting.calculatorNewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnHashMapTesting.randomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_EasyPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testing.calculator.*" />
+          <option name="PATTERN" value="testing.collections.own.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testing.calculator" />
-      <option name="MAIN_CLASS_NAME" value="testing.calculator.CalculatorTesting" />
-      <option name="METHOD_NAME" value="calculatorNewTest" />
+      <option name="PACKAGE_NAME" value="testing.collections.own" />
+      <option name="MAIN_CLASS_NAME" value="testing.collections.own.OwnHashMapTesting" />
+      <option name="METHOD_NAME" value="randomTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTesting.calculatorTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnHashMapTesting.sameKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_EasyPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testing.calculator.*" />
+          <option name="PATTERN" value="testing.collections.own.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testing.calculator" />
-      <option name="MAIN_CLASS_NAME" value="testing.calculator.CalculatorTesting" />
-      <option name="METHOD_NAME" value="calculatorTesting" />
+      <option name="PACKAGE_NAME" value="testing.collections.own" />
+      <option name="MAIN_CLASS_NAME" value="testing.collections.own.OwnHashMapTesting" />
+      <option name="METHOD_NAME" value="sameKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnHashMapTesting.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_EasyPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testing.*" />
+          <option name="PATTERN" value="testing.collections.own.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testing" />
-      <option name="MAIN_CLASS_NAME" value="testing.TestSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="testing.collections.own" />
+      <option name="MAIN_CLASS_NAME" value="testing.collections.own.OwnHashMapTesting" />
+      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnHashMapTesting.timeMeasuring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_EasyPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.collections.own.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testing.collections.own" />
+      <option name="MAIN_CLASS_NAME" value="testing.collections.own.OwnHashMapTesting" />
+      <option name="METHOD_NAME" value="timeMeasuring" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -527,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 7.0.99" />
-      <item itemvalue="JUnit.CalculatorTesting.calculatorTesting" />
-      <item itemvalue="Application.CalculatorTesting" />
-      <item itemvalue="JUnit.CalculatorTesting.calculatorNewTest" />
-      <item itemvalue="JUnit.TestSuite" />
-      <item itemvalue="JUnit.BusinessLogicTest.testEditItem" />
+      <item itemvalue="JUnit.OwnHashMapTesting.generalTest" />
+      <item itemvalue="JUnit.OwnHashMapTesting.simpleTest" />
+      <item itemvalue="JUnit.OwnHashMapTesting.randomTest" />
+      <item itemvalue="JUnit.OwnHashMapTesting.timeMeasuring" />
+      <item itemvalue="JUnit.OwnHashMapTesting.sameKey" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BusinessLogicTest.testEditItem" />
-        <item itemvalue="JUnit.TestSuite" />
-        <item itemvalue="JUnit.CalculatorTesting.calculatorNewTest" />
-        <item itemvalue="JUnit.CalculatorTesting.calculatorTesting" />
-        <item itemvalue="Application.CalculatorTesting" />
+        <item itemvalue="JUnit.OwnHashMapTesting.sameKey" />
+        <item itemvalue="JUnit.OwnHashMapTesting.timeMeasuring" />
+        <item itemvalue="JUnit.OwnHashMapTesting.randomTest" />
+        <item itemvalue="JUnit.OwnHashMapTesting.simpleTest" />
+        <item itemvalue="JUnit.OwnHashMapTesting.generalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -575,44 +591,50 @@
       <workItem from="1581631131566" duration="2660000" />
       <workItem from="1581851034127" duration="225000" />
       <workItem from="1582895849057" duration="8168000" />
-      <workItem from="1582994449489" duration="9611000" />
+      <workItem from="1582994449489" duration="10988000" />
+      <workItem from="1583093263739" duration="154000" />
+      <workItem from="1583325292701" duration="146000" />
+      <workItem from="1583353761925" duration="180000" />
+      <workItem from="1584731748337" duration="799000" />
+      <workItem from="1585337521577" duration="1394000" />
+      <workItem from="1585413070302" duration="24921000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTester_calculatorTesting - 2020.02.29 at 19h 19m 47s.xml">
-      <configuration name="MainTester.calculatorTesting" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_simpleTest - 2020.03.30 at 15h 57m 36s.xml">
+      <configuration name="OwnHashMapTesting.simpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorTesting - 2020.02.29 at 19h 19m 53s.xml">
-      <configuration name="MainTester.calculatorTesting" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_simpleTest - 2020.03.30 at 16h 02m 37s.xml">
+      <configuration name="OwnHashMapTesting.simpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorTesting - 2020.02.29 at 19h 20m 02s.xml">
-      <configuration name="MainTester.calculatorTesting" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_simpleTest - 2020.03.30 at 16h 03m 21s.xml">
+      <configuration name="OwnHashMapTesting.simpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorTesting - 2020.02.29 at 20h 19m 10s.xml">
-      <configuration name="MainTester.calculatorTesting" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_simpleTest - 2020.03.30 at 16h 03m 48s.xml">
+      <configuration name="OwnHashMapTesting.simpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorTesting - 2020.02.29 at 20h 20m 00s.xml">
-      <configuration name="MainTester.calculatorTesting" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_simpleTest - 2020.03.30 at 16h 09m 31s.xml">
+      <configuration name="OwnHashMapTesting.simpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorTesting - 2020.03.01 at 14h 21m 29s.xml">
-      <configuration name="MainTester.calculatorTesting" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_randomTest - 2020.03.30 at 16h 11m 07s.xml">
+      <configuration name="OwnHashMapTesting.randomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorNewTest - 2020.03.01 at 14h 21m 42s.xml">
-      <configuration name="MainTester.calculatorNewTest" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_timeMeasuring - 2020.03.30 at 16h 26m 43s.xml">
+      <configuration name="OwnHashMapTesting.timeMeasuring" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTester_calculatorNewTest - 2020.03.01 at 14h 22m 45s.xml">
-      <configuration name="MainTester.calculatorNewTest" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_timeMeasuring - 2020.03.30 at 16h 26m 58s.xml">
+      <configuration name="OwnHashMapTesting.timeMeasuring" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSuite - 2020.03.01 at 14h 38m 51s.xml">
-      <configuration name="TestSuite" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_timeMeasuring - 2020.03.30 at 16h 28m 15s.xml">
+      <configuration name="OwnHashMapTesting.timeMeasuring" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BusinessLogicTest_testEditItem - 2020.03.01 at 15h 47m 15s.xml">
-      <configuration name="BusinessLogicTest.testEditItem" configurationId="JUnit" />
+    <history-entry file="OwnHashMapTesting_sameKey - 2020.03.30 at 16h 34m 14s.xml">
+      <configuration name="OwnHashMapTesting.sameKey" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251704000" />
+    <option name="totallyTimeSpent" value="280675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,7 +654,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17643923" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -643,7 +665,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4989339" visible="true" weight="0.3217768" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4989339" visible="true" weight="0.38678223" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -665,90 +687,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/_Function.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrencyPractice/ThirdCocurrentTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/LambdaPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="class#OperationRealise#0" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basics/CollectionsPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="283" column="87" selection-start-line="283" selection-start-column="48" selection-end-line="283" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#User#0;class#CollectionsPractice#0" />
-            <element signature="class#UserComparator#0;class#CollectionsPractice#0" />
-            <element signature="method#hashSetPracticeSE#0;class#CollectionsPractice#0" />
-            <element signature="method#treeSetPracticeSE#0;class#CollectionsPractice#0" />
-            <element signature="method#researchOfLists#0;class#CollectionsPractice#0" />
-            <element signature="method#mapPractice#0;class#CollectionsPractice#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrencyPractice/SecondConcurrentTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrencyPractice/FirstConcurrencyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrencyPractice/FirstTaskLogging.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrencyPractice/Description of task">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/CustomerValidatorService.java" />
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/CallBackFunctions.java" />
-    <entry file="file://$PROJECT_DIR$/src/designpatterns.java" />
     <entry file="file://$PROJECT_DIR$/src/DeligaterConcrette.java" />
     <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/FunctionalMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -767,19 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,28 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/CustomerValidationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -883,23 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Testing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ionioStreams/scannerPractice/ScannerPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/Testing.java" />
     <entry file="jar://$PROJECT_DIR$/../java_libraries/junit-4.13.jar!/org/junit/rules/Timeout.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -919,10 +806,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/CustomerRegistrationValidator.java">
+    <entry file="jar://$PROJECT_DIR$/../java_libraries/junit-4.13.jar!/junit/framework/TestCase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        <state relative-caret-position="-1632">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java_libraries/jmock-2.12.0.jar!/org/jmock/Expectations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testing/calculator/CalculatorTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,36 +845,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../java_libraries/junit-4.13.jar!/junit/framework/TestCase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testing/calculator/CalculatorTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testing/TestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="192">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -981,6 +855,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/FunctionIF.java" />
     <entry file="file://$PROJECT_DIR$/src/testing/database/DbInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -998,21 +873,183 @@
     <entry file="file://$PROJECT_DIR$/src/testing/database/BusinessLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../java_libraries/jmock-2.12.0.jar!/org/jmock/Expectations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testing/database/BusinessLogicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/own/hashMap/OwnMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serialisation/SerialisationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ionioStreams/FileIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/CustomerValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serialisation/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/jdk/internal/HotSpotIntrinsicCandidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+          <folding>
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5793#5794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="567" column="30" selection-start-line="567" selection-start-column="30" selection-end-line="567" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="623" column="13" lean-forward="true" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basics/CollectionsPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2208">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collections/own/hashMap/OwnHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2653#2654#0" expanded="true" />
+            <element signature="e#2836#2837#0" expanded="true" />
+            <element signature="e#2870#2871#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#2947#2948#0" expanded="true" />
+            <element signature="e#2981#2982#0" expanded="true" />
+            <element signature="e#3017#3018#0" expanded="true" />
+            <element signature="e#3061#3062#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ionioStreams/scannerPractice/ScannerPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fucntionalPractice/combinator_pat/CustomerRegistrationValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testing/collections/own/OwnHashMapTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

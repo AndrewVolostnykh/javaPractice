@@ -20,7 +20,7 @@ public class BusinessLogicTest {
 
         context.checking(new Expectations() {{
             oneOf(db).find(id);
-            oneOf(db).save(id, name); will(returnValue(2)); // returnValue given for DbInt method save 
+            oneOf(db).save(id, name); will(returnValue(2)); // returnValue given for DbInt method save
 
 
         }});
