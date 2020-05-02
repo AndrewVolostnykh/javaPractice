@@ -1,6 +1,3 @@
-import collections.own.hashMap.OwnHashMap;
-import concurrencyPractice.ThirdCocurrentTask;
-import static basics.CollectionsPractice.*;
 
 public class Main{
     public static void  main(String[] args)
