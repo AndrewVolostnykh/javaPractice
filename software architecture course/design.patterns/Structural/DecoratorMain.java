@@ -1,7 +1,7 @@
 package patterns;
 
 import java.io.*;
-
+// we have nice example in java io
 public class DecoratorMain {
 	public static void main(String[] args) {
 		FileStream stream = new FileStream();
